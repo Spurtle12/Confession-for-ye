@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&family=Delius&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  background-image: url('cat.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: Center;
+  font-family: delius ;
+  align-items: center;
+  justify-items: center;
+}
+
+.imgg {
+  display: flex;
+  height: 120px;
+  width: 140px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  padding: 0;
+  border-radius: 10px;
+  position: center;
+}
+
+.styled-button { 
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  background-color: lightpink;
+  opacity: 0.7;
+  border-radius: 3px;
+  width: 2cm;
+  height: 1cm;
+  font-weight: bold;
+}
+
+.hr {
+  position: absolute;
+  border: none;
+  border-top: 2px solid black;
+  top: 245px;
+  width: 70%;
+  margin: 0;
+  left: 16%;
+}
+
+.container {
+  position: relative;
+  background-color: pink;
+  opacity: 0.7;
+  width: 300px;
+  height: 280px;
+  border: 2px solid pink;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  right: 5px;
+  top: 2%;
+}
+
+.ebriting{
+  position: relative;
+  width: 300px;
+  height: 280px;
+  border-radius: 10px;
+  display: flex;
+  left: 45px;
+  top: 1px;
+}
+
+.button-container {
+  position: absolute;
+  padding: 10px 20px;
+  height: 40px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: lighter;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  left: 25%;
+  bottom: 15px;
+}
+
+.button-container:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.img{
+  border: 2px solid black;
+  border-radius: 6px;
+  box-sizing: border-box;
+  height: 181px;
+  width: 211px;
+  padding: 0;
+  position: absolute;
+  width: 210px;
+  height: 180px;
+  bottom: 60px;
+}
+
+.h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 240px;
+  margin-left: 1px;
+}
+
+.h1 {
+  position: center;
+}

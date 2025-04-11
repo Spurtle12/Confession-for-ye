@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&family=Delius&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: delius;
+  text-align: center;
+  padding: 20px;
+  background-image: url(cat.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+
+.paper {
+    touch-action: none;
+    position: fixed;
+    justify: center;
+    width: 5cm;
+    height: 500px;
+    background-image: url(paper.jpg);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    cursor: grab;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 50px;
+    border-box: 0px;
+    font-weight: 50px;
+    font-size: large;
+    overflow-y: hidden;
+    overflow-x: auto;
+    margin-left: 8%;
+    top: 3cm;
+}
+
+.scroll {
+  margin-bottom: 45px;
+  height: 400px;
+  overflow: auto;
+  font-weight: bolder;
+  font-family: delius;
+}
+
+h1 {
+  margin-top: 2px;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&family=Delius&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: delius;
+  overflow: hidden;
+}
+
+body {
+    background-image: url(cat.jpg);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    margin: 0;
+    background-size: cover;
+    padding: 20px;
+    background-repeat: no-repeat;
+}
+
+.paper {
+    touch-action: none;
+    position: absolute;
+    justify: center;
+    width: 120px;
+    height: 100px;
+    background-image: url(paper.jpg);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    cursor: grab;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 50px;
+    border-box: 0px;
+    font-weight: 50px;
+    font-size: large;
+}
+
+.paper.image {
+    touch-action: none;
+    position: absolute;
+    justify: center;
+    width: 120px;
+    height: 100px;
+    background-image: url(paper.jpg);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    cursor: grab;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 50px;
+    border-box: 0px;
+    font-weight: 50px;
+    font-size: large;
+}
+
+.styled-button {
+  
+}
+
+.styled-button:hover {
+    background-color: rgb(81, 130, 175);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.h1 {
+    position: absolute;
+    top: 10px;
+    font-size: 2rem; 
+    margin: 0;
+}
+
+hr {
+    position: absolute;
+    border: none;
+    border-top: 2px solid black;
+    top: 7%;
+    width: 80%;
+    margin: 0;
+}
+
+p {
+    font-family: 'zeyada';
+    font-size: large;
+    font-weight: bolder;
+}
+
+.envelope-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 20px 0;
+}
+
+.envelope {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-image: url(body.jpg);
+    border: 2px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 2;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.envelope .flap {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background-image: url(top.jpg);
+    transform-origin: top;
+    transition: transform 0.5s ease;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.envelope .body {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-image: url(bottom.jpg);
+}
+
+.envelope-container:hover{
+    transform: scale(0.9);
+}
+
+.papers {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.papers.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.hidden {
+    display: none;
+}
+
+.moved {
+    transform: translateX(500px);
+    opacity: 0;
+}
+
+.sbutton2 {
+    opacity: 0.7;
+    padding: 5px 15px;
+    position: relative; 
+    top: 150px; 
+    left: 110px; 
+    height: 50px;
+    width: 115px;
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: pink;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.sbutton2:hover {
+    background-color: lightcoral;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.styled-button {
+    opacity: 0.7;
+    padding: 5px 15px;
+    position: relative; 
+    top: 150px; 
+    right: 110px; 
+    height: 50px;
+    width: 115px;
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: pink;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.styled-button:hover {
+    background-color: lightcoral;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
